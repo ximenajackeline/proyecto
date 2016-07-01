@@ -1,0 +1,52 @@
+body{
+	background-color: rgba(100, 0, 90, 1);
+	font-size: 18px;
+	font-variant: small-caps;
+	font-family: monospace;
+}
+button{
+	background-color: pink;
+	/*background: url("imagenes/winged_skull_logo_by_citgepolol-d7jhatd.png") no-repeat;*/
+	font-size: 24px;
+	font-variant: small-caps;
+	font-family: serif;
+	color: #000f4f;
+	border-radius: 15px;
+	border-color: blue;
+	border-style: groove;
+	text-decoration: line-through;
+	width: 180px;
+	height: 90px;
+	box-shadow: 10px 10px 10px rgba(250, 180, 50,4);
+	-webkit-transform: width 1s;
+	-moz-transform: width 1s;
+	-moz-transition: width 2s, height 2s, -moz-transform 2s;
+	transition: width 2s, height 2s, -moz-transform 2s;
+}
+button:hover{
+	width: 140px;
+	height: 80px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(30deg);
+	trasform:  rotate(30deg);
+}
+h1{
+	text-align: center;
+	font-family: verdana;
+	color: rgb(0, 100, 60 );
+	font-style: italic ;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+img{
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-color: #00ffff;
+	border-style: double;
+	box-shadow: 10px 10px 10px rgba(200, 10, 100, 4);
+	height: 19%;
+	width: 14%;
+}
+i{
+	color: pink;
+}
